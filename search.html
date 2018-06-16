@@ -14,9 +14,8 @@ title: Search Schools
 		if(searchTerm.length > 1){
 			$.ajax({
 				type: 'GET',
-				url: '/search.php',
+				url: '/search.php', // bug with webtasks won't let me authenticate :(
 				data: {s:searchTerm},
-				async: false,
 				complete: function(response) {
 					var results = JSON.parse(response.responseText);
 					var html = '';
@@ -32,5 +31,5 @@ title: Search Schools
 				}
 			});
 		}
-	}
+	});
 </script>

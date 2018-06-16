@@ -8,7 +8,7 @@ sass:
 collections:
   colleges:
     output: true
-    permalink: /colleges/:name
+    permalink: /colleges/:slug/
 defaults:
   - scope:
       path: ""
@@ -16,7 +16,7 @@ defaults:
     values:
       layout: single
 algolia:
-  application_id: 'Y2N7OVVUWU'
+  application_id: 'VP222X0ZZ6'
   index_name: 'forestry'
   nodes_to_index: 'h3.programs'
 exclude: [Gemfile.lock, Gemfile, bin]
