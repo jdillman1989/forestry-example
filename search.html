@@ -25,13 +25,13 @@ title: Search Schools
 							var thisPrograms = results['hits'][i].programs.join(', ');
 							html += '<article class="result">\
 										<a href="' + results['hits'][i].url + '" class="result-header">\
-											<h3>' + results['hits'][i].title + '</h3>\
 											<div class="result-logo" style="\
 												background-image: url(' + results['hits'][i].logo + ');\
 												background-repeat: no-repeat;\
 												background-position: left center;\
 												background-size: contain;" alt="{{ page.title }}">\
 											</div>\
+											<h3>' + results['hits'][i].title + '</h3>\
 										</a>\
 										<div class="result-content">\
 											<p><strong>Score:</strong> ' + results['hits'][i].score + '</p>\
