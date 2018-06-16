@@ -11,6 +11,5 @@ logo: "//www.aquinas.edu/sites/all/themes/aquinas_theme/logo.png"
 score: 68
 rankings:
 - Most Affordable
-published: false
 ---
 The close-knit educational environment at Aquinas develops students who thrive in all dimensions of life.  Learn more, in our students words about the Aquinas experience and the Dominican pillars of prayer, study, service, and community.
