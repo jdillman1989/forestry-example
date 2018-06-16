@@ -13,6 +13,5 @@ score: 85
 rankings:
 - Best Online Programs
 - Top Ten Colleges
-published: false
 ---
 Join an incomparable community of leaders and learners who come from all walks of life to break down barriers and make new discoveries. Embody the spirit of a great American city making a storied comeback. Experience different ideas and perspectives, take on new and unexpected challenges, have a great time, and gain a distinct advantage as you build a career in our interconnected world.
