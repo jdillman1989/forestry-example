@@ -12,7 +12,6 @@ score: 56
 rankings:
 - Best Online Programs
 - Most Affordable
-published: false
 ---
 Grand Rapids is part of our name, but so is “community,” and the community we serve deserves the best from its community college. And while we all recognize our local city, town, and county boundaries, those distinctions are being melded into the West Michigan community. We are evolving — and it’s a good evolution. One college, many communities — that’s how we work.
 
