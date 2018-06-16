@@ -2,7 +2,13 @@ aside{
 	flex-shrink: 0;
 	width: 300px;
 	margin-right: 90px;
+	@include breakpoint($breakPoint) {
+		flex-shrink: 1;
+		width: 100%;
+		margin-right: 0;
+	}
 	.aside-container{
+		padding: 40px 0;
 		.search{
 			padding: 30px;
 			background-color: $primary;
@@ -17,6 +23,10 @@ aside{
 			top: $headerHeight;
 			z-index: 1;
 			width: 300px;
+			@include breakpoint($breakPoint) {
+				position: static;
+				width: 100%;
+			}
 		}
 	}
 }

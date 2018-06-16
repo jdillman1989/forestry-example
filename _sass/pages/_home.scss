@@ -1,5 +1,10 @@
 .ranking{
 	margin-bottom: 90px;
+	@include breakpoint($breakPoint) {
+		&:last-of-type{
+			margin-bottom: 0;
+		}
+	}
 	.ranking-header{
 
 		h2{

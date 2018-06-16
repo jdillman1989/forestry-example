@@ -8,8 +8,12 @@ main{
 	justify-content: space-between;
 	width: 85%;
 	margin: 0 auto;
-	padding: 40px 0;
+	@include breakpoint($breakPoint) {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
 	.content-container{
 		width: 100%;
+		padding: 40px 0;
 	}
 }

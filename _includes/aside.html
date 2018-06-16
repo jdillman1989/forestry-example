@@ -5,7 +5,7 @@
 				<select name="s">
 					<option value=" " selected="selected">Select a Program</option>
 					{% for program in site.data.programs %}
-						<option value="{{ program.name }}">{{ program.name }}</option>
+						<option value="{{ program[0] }}">{{ program[0] }}</option>
 					{%endfor%}
 				</select>
 			</div>
