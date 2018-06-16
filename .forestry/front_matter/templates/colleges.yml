@@ -42,16 +42,6 @@ fields:
     source:
       type: datafiles
       file: _data-programs-yml
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: single
 pages:
 - _colleges/grand-valley.md
 - _colleges/davenport.md
