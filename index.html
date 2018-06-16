@@ -10,7 +10,7 @@ image: /assets/images/header.jpg
 			<h2>{{ ranking[0] }}</h2>
 		</div>
 		{% assign this_ranking = site.colleges | where_exp: "item", "item.rankings contains ranking[0]" %}
-		{% assign sorted = this_ranking | sort: 'score' %}
+		{% assign sorted = this_ranking | sort: 'score' | reverse %}
 		{% for college in sorted %}
 			<div class="accordion-item">
 				<div class="accordion-toggle">
