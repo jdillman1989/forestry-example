@@ -1,4 +1,6 @@
 ---
-rankings: [Top Ten Colleges, Most Affordable, Best Online Programs]
-programs: [Associates, Bachelors, Masters, Doctorate, Certification]
+rankings:
+  - name: Top Ten Colleges
+  - name: Most Affordable
+  - name: Best Online Programs
 ---
