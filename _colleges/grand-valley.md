@@ -4,6 +4,7 @@ website: https://www.gvsu.edu
 logo: "//www.gvsu.edu/homepage/files/img/gvsu_logo_blue[1470740211].svg"
 score: 60
 rankings:
+- Top Ten Colleges
 - Most Affordable
 programs:
 - Bachelors
