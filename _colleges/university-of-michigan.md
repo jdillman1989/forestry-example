@@ -14,6 +14,5 @@ rankings:
 - Best Online Programs
 - Most Affordable
 - Top Ten Colleges
-published: false
 ---
 Welcome to the University of Michigan, a place with deep traditions focused on creating brighter futures. We invite you to explore the diverse and vibrant community that makes us the home of Leaders & Best.
