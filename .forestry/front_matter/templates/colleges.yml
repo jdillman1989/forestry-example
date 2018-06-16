@@ -45,6 +45,7 @@ fields:
       file: _data-programs-yml
       path: programs
 pages:
+- _colleges/grand-rapids-community-college.md
 - _colleges/grand-valley.md
 - _colleges/davenport.md
 - _colleges/calvin-college.md
