@@ -45,9 +45,15 @@ fields:
   config:
     use_select: true
     source:
-      type: datafiles
+      type: simple
       file: _data-programs-yml
       path: programs
+    options:
+    - Associates
+    - Bachelors
+    - Masters
+    - Doctorate
+    - Certification
 pages:
 - _colleges/grand-valley.md
 - _colleges/davenport.md
