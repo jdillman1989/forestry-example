@@ -1,7 +1,13 @@
 ---
-- name: Associates
-- name: Bachelors
-- name: Masters
-- name: Doctorate
-- name: Certification
+programs:
+  Associates:
+    name = "Associates"
+  Bachelors:
+    name = "Bachelors"
+  Masters:
+    name = "Masters"
+  Doctorate:
+    name = "Doctorate"
+  Certification:
+    name = "Certification"
 ---
