@@ -45,6 +45,7 @@ fields:
       file: _data-programs-yml
       path: programs
 pages:
+- _colleges/wayne-state-university.md
 - _colleges/oakland-university.md
 - _colleges/eastern-michigan-university.md
 - _colleges/western-michigan-university.md
