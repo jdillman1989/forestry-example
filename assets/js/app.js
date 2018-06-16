@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 		footerPoint = (docHeight - screen.height) + footerHeight;
 
 	$(window).scroll(function(){
-		if($(window).width() > breakPoint){
+		if($(window).width() > breakPoint && $('.aside-container').outerHeight() < ($('.content-container').outerHeight() - 50) ){
 			if ($(window).scrollTop() >= fixPoint){
 				scroll.addClass('fixed');
 				docHeight = $(document).height();
