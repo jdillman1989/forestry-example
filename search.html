@@ -11,6 +11,7 @@ title: Search Schools
 		}
 
 		var searchTerm = decodeURIComponent($.urlParam('s'));
+		console.log(searchTerm);
 		if(searchTerm.length > 1){
 			$.ajax({
 				type: 'GET',
