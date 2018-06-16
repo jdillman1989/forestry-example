@@ -21,10 +21,23 @@ title: Search Schools
 					var results = JSON.parse(response.responseText);
 					var html = '';
 					for (var i = 0; i < results['hits'].length; i++) {
-						if(results['hits'][i].type == 'post'){
-							html += '<article class="post">\
-										<h2><a href="' + results['hits'][i].url + '">' + results['hits'][i].title + '</a></h2>\
-										<div class="post-content">' + results['hits'][i].html + '</div>\
+						if(results['hits'][i].type == 'document'){
+							var thisPrograms = results['hits'][i].programs.join(', ');
+							html += '<article class="result">\
+										<a href="' + results['hits'][i].url + '" class="result-header">\
+											<div class="result-logo" style="\
+												background-image: url(' + results['hits'][i].logo + ');\
+												background-repeat: no-repeat;\
+												background-position: left center;\
+												background-size: contain;" alt="{{ page.title }}">\
+											</div>\
+											<h3>' + results['hits'][i].title + '</h3>\
+										</a>\
+										<div class="result-content">\
+											<p><strong>Score:</strong> ' + results['hits'][i].score + '</p>\
+											<p><strong>Programs:</strong> ' + thisPrograms + '</p>\
+											<a href="' + results['hits'][i].url + '" class="fr-button">Request Info</a>\
+										</div>\
 									</article>';
 						}
 					}
