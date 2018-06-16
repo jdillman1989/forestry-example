@@ -1,12 +1,12 @@
 ---
 Associates:
-  name: Associates
+  label: Associates
 Bachelors:
-  name: Bachelors
+  label: Bachelors
 Masters:
-  name: Masters
+  label: Masters
 Doctorate:
-  name: Doctorate
+  label: Doctorate
 Certification:
-  name: Certification
+  label: Certification
 ---

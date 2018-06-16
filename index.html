@@ -7,9 +7,9 @@ image: /assets/images/header.jpg
 {% for ranking in site.data.rankings %}
 	<article class="ranking">
 		<div class="ranking-header">
-			<h2>{{ ranking }}</h2>
+			<h2>{{ ranking[0] }}</h2>
 		</div>
-		{% assign this_ranking = site.colleges | where_exp: "item", "item.rankings contains ranking.name" %}
+		{% assign this_ranking = site.colleges | where_exp: "item", "item.rankings contains ranking[0]" %}
 		{% for college in this_ranking %}
 			<div class="accordion-item">
 				<div class="accordion-toggle">
