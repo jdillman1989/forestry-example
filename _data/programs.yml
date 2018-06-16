@@ -1,12 +1,12 @@
 ---
 Associates:
-  name = "Associates"
+  name: Associates
 Bachelors:
-  name = "Bachelors"
+  name: Bachelors
 Masters:
-  name = "Masters"
+  name: Masters
 Doctorate:
-  name = "Doctorate"
+  name: Doctorate
 Certification:
-  name = "Certification"
+  name: Certification
 ---
