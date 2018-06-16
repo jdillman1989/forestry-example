@@ -56,6 +56,7 @@ fields:
     - Doctorate
     - Certification
 pages:
+- _colleges/testing.md
 - _colleges/grand-valley.md
 - _colleges/davenport.md
 - _colleges/calvin-college.md
