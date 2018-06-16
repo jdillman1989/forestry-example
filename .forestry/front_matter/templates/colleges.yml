@@ -45,6 +45,7 @@ fields:
       file: _data-programs-yml
       path: programs
 pages:
+- _colleges/michigan-state-university.md
 - _colleges/university-of-michigan.md
 - _colleges/calvin-theological-seminary.md
 - _colleges/cornerstone-university.md
