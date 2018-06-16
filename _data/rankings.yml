@@ -1,5 +1,9 @@
 ---
-name: Top Ten Colleges
-name: Most Affordable
-name: Best Online Programs
+terms:
+  0:
+    name = "Top Ten Colleges"
+  1:
+    name = "Most Affordable"
+  2:
+    name = "Best Online Programs"
 ---

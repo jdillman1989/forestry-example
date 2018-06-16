@@ -1,7 +1,8 @@
 ---
-name: Associates
-name: Bachelors
-name: Masters
-name: Doctorate
-name: Certification
+terms: 
+  - name: Associates
+  - name: Bachelors
+  - name: Masters
+  - name: Doctorate
+  - name: Certification
 ---
