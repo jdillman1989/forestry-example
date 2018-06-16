@@ -1,0 +1,22 @@
+aside{
+	flex-shrink: 0;
+	width: 300px;
+	margin-right: 90px;
+	.aside-container{
+		.search{
+			padding: 30px;
+			background-color: $primary;
+			color: #FFF;
+			margin-bottom: 30px;
+		}
+		.contact{
+
+		}
+		&.fixed{
+			position: fixed;
+			top: $headerHeight;
+			z-index: 1;
+			width: 300px;
+		}
+	}
+}

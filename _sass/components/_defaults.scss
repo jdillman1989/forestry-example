@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.animate{
+	transition: all 0.3s ease;
+}
+
+svg{
+	width: 100%;
+	height: auto; 
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	margin: 0 auto;
+	font-family: $body;
+	background: #F0F0F0;
+	max-width: 1500px;
+}
+
+input, textarea, button, select{
+	display: block;
+	border: none;
+	appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	color: $textPrimary;
+	outline: none;
+	margin: 0;
+	padding: 0;
+}

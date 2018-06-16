@@ -1,0 +1,28 @@
+---
+layout: page
+title: Top Schools in Michigan
+image: /assets/images/header.jpg
+---
+
+{% for ranking in site.data.rankings %}
+	<article class="ranking">
+		<div class="ranking-header">
+			<h2>{{ ranking.term }}</h2>
+		</div>
+		{% assign this_ranking = site.colleges | where_exp: "item", "item.rankings contains ranking.term" %}
+		{% for college in this_ranking %}
+			<div class="accordion-item">
+				<div class="accordion-toggle">
+					<h3>{{ college.title }}</h3>
+					<div class="accordion-icon"><p>+</p></div>
+				</div>
+				<div class="accordion-content">
+					<p><strong>Score:</strong> {{ college.score }}</p>
+					{{ college.content }}
+					<a href="{{ college.url }}" class="fr-button">Request Info</a>
+				</div>
+			</div>
+		{% endfor %}
+	</article>
+{% endfor %}
+

@@ -1,0 +1,24 @@
+title: Michigan Colleges
+email: jesse@jdillman.com
+baseurl: ""
+url: ""
+markdown: kramdown
+sass:
+  sass_dir: _sass
+collections:
+  colleges:
+    output: true
+    permalink: /colleges/:name
+defaults:
+  - scope:
+      path: ""
+      type: colleges
+    values:
+      layout: single
+algolia:
+  application_id: 'Y2N7OVVUWU'
+  index_name: 'forestry'
+  nodes_to_index: 'h3.programs'
+exclude: [Gemfile.lock, Gemfile, bin]
+plugins:
+- jekyll-autoprefixer

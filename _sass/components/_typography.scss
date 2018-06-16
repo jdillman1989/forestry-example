@@ -1,0 +1,76 @@
+@import url('//fonts.googleapis.com/css?family=Roboto:400,900');
+
+$body: 'Roboto', sans-serif;
+
+$fontsizeH1: 48px;
+$fontsizeH2: 32px;
+$fontsizeH3: 22px;
+$fontsizeP: 16px;
+
+a:not(.fr-button){
+	color: $secondary;
+	text-decoration: underline;
+	&:visited{
+		color: lighten($secondary, 15%);
+	}
+	&:hover{
+		color: darken($secondary, 15%);
+	}
+}
+
+strong{
+	font-weight: 900;
+}
+
+em{
+	font-style: italic;
+}
+
+p, li{
+	font-size: $fontsizeP;
+	font-family: $body;
+	margin-bottom: 1.2em;
+	font-weight: 400;
+	line-height: 1.6em;
+}
+
+ul, ol{
+	font-size: $fontsizeP;
+	font-family: $body;
+}
+
+ul{
+	list-style: disc inside;
+}
+
+ol{
+	list-style: decimal inside;
+}
+
+h3, .h-three{
+	font-size: $fontsizeH3;
+	font-family: $body;
+	line-height: 1.1em;
+	font-weight: 900;
+	margin-bottom: 0.7em;
+}
+
+h2, .h-two{
+	font-size: $fontsizeH2;
+	font-family: $body;
+	line-height: 1.1em;
+	font-weight: 900;
+	margin-bottom: 0.7em;
+	color: $primary;
+}
+
+h1{
+	font-size: $fontsizeH1;
+	font-family: $body;
+	line-height: 1.1em;
+	font-weight: 900;
+}
+
+body{
+	color: $textPrimary;
+}

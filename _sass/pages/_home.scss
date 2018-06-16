@@ -1,0 +1,59 @@
+.ranking{
+	margin-bottom: 90px;
+	.ranking-header{
+
+		h2{
+
+		}
+	}
+}
+
+.accordion-item{
+	margin-bottom: 30px;
+	background-color: $lgray;
+	.accordion-toggle{
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		h3{
+			width: 100%;
+			margin-bottom: 0;
+			padding: 0 30px;
+			line-height: 1.2em;
+		}
+		.accordion-icon{
+			background-color: $secondary;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+			width: 60px;
+			height: 60px;
+			position: relative;
+			p{
+				color: #FFF;
+				font-size: $fontsizeH3;
+				transition: all 0.3s ease;
+				transform-origin: 50% 50%;
+				display: inline-block;
+				text-align: center;
+				width: auto;
+				margin-bottom: 0;
+			}
+		}
+		&.active{
+			.accordion-icon{
+				p{
+					transform: rotate(45deg);
+				}
+			}
+		}
+	}
+	.accordion-content{
+		display: none;
+		width: 100%;
+		padding: 30px;
+		margin: 0 auto;
+	}
+}

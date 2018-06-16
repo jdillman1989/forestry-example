@@ -1,0 +1,15 @@
+body{
+	padding-top: $headerHeight;
+}
+
+main{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 85%;
+	margin: 0 auto;
+	padding: 40px 0;
+	.content-container{
+		width: 100%;
+	}
+}

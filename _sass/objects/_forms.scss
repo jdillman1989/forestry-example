@@ -1,0 +1,43 @@
+.select-style{
+	background-color: #FFF;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	border: 2px solid $secondary;
+	select {
+		background: transparent;
+		font-size: $fontsizeP;
+		padding: 5px;
+		display: block;
+		margin-bottom: 0;
+	}
+	&:after{
+		width: 35px;
+		height: 35px;
+		background-color: $secondary;
+		color: #000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 10px;
+		content:'▼';
+	}
+}
+
+form{
+	input, textarea, select{
+		width: 100%;
+		margin-bottom: 20px;
+		background-color: #FFF;
+		font-size: $fontsizeP;
+		font-family: $body;
+		font-weight: 400;
+		line-height: 1.6em;
+	}
+	input, textarea{
+		padding: 10px;
+	}
+}

@@ -1,0 +1,20 @@
+{% include header.html %}
+
+<header style="
+	background-image: linear-gradient(rgba(255,255,255,0.70), rgba(255,255,255,0.70)), url({{ page.image }});
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;" alt="{{ page.title }}">
+	<div class="header-container">
+		<h1>{{ page.title }}</h1>
+	</div>
+</header>
+
+<main>
+	{% include aside.html %}
+	<section class="content-container">
+		{{ content }}
+	</section>
+</main>
+
+{% include footer.html %}

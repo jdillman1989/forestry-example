@@ -1,0 +1,33 @@
+{% include header.html %}
+
+<main>
+	{% include aside.html %}
+	<section class="content-container">
+		<div class="single-header">
+			<a href="{{ page.website }}" target="_blank" class="college-logo" style="
+				background-image: url({{ page.logo }});
+				background-repeat: no-repeat;
+				background-position: left center;
+				background-size: contain;" alt="{{ page.title }}">
+			</a>
+			<h1>{{ page.title }}</h1>
+			<h3>Score: {{ page.score }}</h3>
+			<h3 class="programs">Programs Offered: {{ page.programs | join: ', ' }}</h3>
+			<p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+		</div>
+		<div class="single-content">
+			<article>
+				{{ content }}
+			</article>
+			<form class="contact">
+				<h3>Inquire about {{ page.title }}</h3>
+				<input type="text" name="fullname" placeholder="Name">
+				<input type="text" name="email" placeholder="Email">
+				<textarea name="message" placeholder="Message"></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
+</main>
+
+{% include footer.html %}

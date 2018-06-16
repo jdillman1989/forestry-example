@@ -1,0 +1,34 @@
+.single-header{
+	border-bottom: 3px solid $secondary;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	.college-logo{
+		width: 100%;
+		height: 50px;
+		margin-bottom: 30px;
+		display: block;
+	}
+	h1{
+		margin-bottom: 0.6em;
+	}
+}
+
+.single-content{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	article{
+		width: 100%;
+	}
+
+	.contact{
+		width: 300px;
+		flex-shrink: 0;
+		padding: 30px;
+		background-color: $primary;
+		margin-left: 40px;
+		h3{
+			color: #FFF;
+		}
+	}
+}

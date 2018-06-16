@@ -1,0 +1,22 @@
+<aside>
+	<div class="aside-container">
+		<form id="search" method="get" class="search" action="{{ site.url }}/search">
+			<div class="select-style">
+				<select name="s">
+					<option value=" " selected="selected">Select a Program</option>
+					{% for program in site.data.programs %}
+						<option value="{{ group.name }}">{{ program.term }}</option>
+					{%endfor%}
+				</select>
+			</div>
+			<button type="submit">Find Schools</button>
+		</form>
+		<form class="contact">
+			<h3>Get in touch</h3>
+			<input type="text" name="fullname" placeholder="Name">
+			<input type="text" name="email" placeholder="Email">
+			<textarea name="message" placeholder="Message"></textarea>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</aside>

@@ -1,0 +1,21 @@
+footer{
+	background-color: $primary;
+	padding: 40px 0;
+	.footer-container{
+		width: 85%;
+		margin: 0 auto;
+		text-align: center;
+		.fr-button{
+			text-align: center;
+			svg{
+				width: 30px;
+				height: 30px;
+				display: block;
+				margin: 0 auto;
+			}
+			span{
+				display: block;
+			}
+		}
+	}
+}
