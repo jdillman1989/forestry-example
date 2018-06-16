@@ -1,0 +1,48 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+- name: logo
+  label: Logo
+  type: text
+  hidden: false
+  default: ''
+- name: score
+  label: Score
+  type: text
+  hidden: false
+  default: ''
+- name: rankings
+  label: Rankings
+  type: list
+  hidden: false
+  default: ''
+- name: programs
+  label: Programs
+  type: list
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: single
+pages:
+- _colleges/grand-valley.md
+- _colleges/davenport.md
+- _colleges/calvin-college.md
