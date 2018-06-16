@@ -45,9 +45,9 @@ fields:
   config:
     use_select: true
     source:
-      type: simple
+      type: datafiles
       file: _data-programs-yml
-      path: programs
+      path: ''
     options:
     - Associates
     - Bachelors
