@@ -11,7 +11,9 @@ unset GIT_DIR;
 export GIT_WORK_TREE=$WEBROOT/build;
 export GIT_DIR=$WEBROOT/$STAGING.git;
 git checkout -f master;
-cd $WEBROOT/build && bundle exec jekyll build --destination $PUBLIC;" >> post-receive;
+cd $WEBROOT/build && bundle exec jekyll build --destination $PUBLIC;
+wt create webtasks/*;
+ALGOLIA_API_KEY='$KEY' bundle exec jekyll algolia;" >> post-receive;
 
 echo "Setting up deployments";
 cd $WEBROOT/$STAGING.git/hooks;

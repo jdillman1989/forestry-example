@@ -25,6 +25,6 @@ algolia:
       - programs
     customRanking:
       - desc(score)
-exclude: [Gemfile.lock, Gemfile, bin]
+exclude: [Gemfile.lock, Gemfile, bin, webtasks]
 plugins:
 - jekyll-autoprefixer

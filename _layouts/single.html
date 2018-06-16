@@ -19,11 +19,11 @@
 			<article>
 				{{ content }}
 			</article>
-			<form class="contact" method="POST" action="/confirmation">
+			<form class="contact" name="{{ page.title | slugify }}" method="POST">
 				<h3>Inquire about {{ page.title }}</h3>
-				<input type="text" name="fullname" placeholder="Name">
-				<input type="text" name="email" placeholder="Email">
-				<textarea name="message" placeholder="Message"></textarea>
+				<input type="text" class="name" name="fullname" placeholder="Name">
+				<input type="text" class="email" name="email" placeholder="Email">
+				<textarea name="message" class="message" placeholder="Message"></textarea>
 				<button type="submit">Submit</button>
 			</form>
 		</div>

@@ -10,15 +10,19 @@ title: Search Schools
 			return results[1] || 0;
 		}
 
-		var searchTerm = decodeURIComponent($.urlParam('s'));
-		console.log(searchTerm);
+		var searchTerm = $.urlParam('s');
 		if(searchTerm.length > 1){
+			var appID = 'VP222X0ZZ6';
+			var appKey = 'd3909cbd70bb4a2fafdd72e9d3bd37e5';
 			$.ajax({
 				type: 'GET',
-				url: '/search.php', // bug with webtasks won't let me authenticate :(
-				data: {s:searchTerm},
+				url: 'https://' + appID + '-dsn.algolia.net/1/indexes/forestry?query=' + searchTerm + '&hitsPerPage=15&getRankingInfo=1',
+				headers: {
+					"X-Algolia-Application-Id": appID,
+					"X-Algolia-API-Key": appKey
+				},
 				complete: function(response) {
-					var results = JSON.parse(response.responseText);
+					var results = response.responseJSON;
 					var html = '';
 					for (var i = 0; i < results['hits'].length; i++) {
 						if(results['hits'][i].type == 'document'){
@@ -44,6 +48,6 @@ title: Search Schools
 					$('.content-container').html(html);
 				}
 			});
-		}
+		}		
 	});
 </script>

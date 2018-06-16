@@ -4,6 +4,7 @@
 # PUBLIC=$WEBROOT/public_html;
 # USER='user';
 # SERVER=$USER'@server.com';
+# KEY='algolia_admin_key';
 
 source "config.sh";
 echo 'echo start;' > installStaging.sh;
