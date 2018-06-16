@@ -41,7 +41,8 @@ fields:
   label: Programs
   type: list
   hidden: false
-  default: []
+  default:
+  - programs
   config:
     use_select: true
     source:
