@@ -20,6 +20,12 @@ algolia:
   application_id: 'VP222X0ZZ6'
   index_name: 'forestry'
   nodes_to_index: 'h3'
+  settings:
+    searchableAttributes:
+      - programs
+      - collection,categories,tags
+    customRanking:
+      - desc(score)
 exclude: [Gemfile.lock, Gemfile, bin]
 plugins:
 - jekyll-autoprefixer
