@@ -13,7 +13,6 @@ score: 87
 rankings:
 - Most Affordable
 - Top Ten Colleges
-published: false
 ---
 Michigan State University Spartans work every day to advance the common good in uncommon ways. Together we tackle some of the world’s toughest problems to find solutions that make life better. 
 
