@@ -27,6 +27,11 @@ fields:
   type: list
   hidden: false
   default: ''
+  config:
+    use_select: true
+    source:
+      type: datafiles
+      file: _data-rankings-yml
 - name: programs
   label: Programs
   type: list
