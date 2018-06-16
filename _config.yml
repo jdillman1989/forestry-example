@@ -23,7 +23,6 @@ algolia:
   settings:
     searchableAttributes:
       - programs
-      - collection,categories,tags
     customRanking:
       - desc(score)
 exclude: [Gemfile.lock, Gemfile, bin]
