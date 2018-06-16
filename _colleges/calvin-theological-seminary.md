@@ -9,7 +9,6 @@ website: http://www.calvinseminary.edu
 logo: "//www.calvinseminary.edu/wp-content/themes/cts_main_v1/_includes/_img/_general/footer_logo.png"
 score: 58
 rankings: []
-published: false
 ---
 This is seminary education as it should be: an education devoted to rigorous study of the biblical texts, rooted in vibrant prayer and connected to an encouraging community of fellow learners. Ultimately, it’s an education whose center is Jesus Christ, God’s Word in the flesh.
 
