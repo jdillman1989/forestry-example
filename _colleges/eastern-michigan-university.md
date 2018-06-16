@@ -10,6 +10,7 @@ website: https://www.emich.edu
 logo: "//www.emich.edu/_resources/srcimg/inlne-eastern-new.png"
 score: 74
 rankings:
+- Top Ten Colleges
 - Most Affordable
 - Best Online Programs
 ---
