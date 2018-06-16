@@ -11,7 +11,6 @@ logo: "//www.cornerstone.edu/files/alumnilogo_bal_vert_2767-8960.png"
 score: 76
 rankings:
 - Best Online Programs
-published: false
 ---
 BUILD A LIFE THAT MATTERS.
 
