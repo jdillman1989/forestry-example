@@ -19,7 +19,7 @@
 			<article>
 				{{ content }}
 			</article>
-			<form class="contact">
+			<form class="contact" name="{{ page.title | slugify }}" method="POST" action="/confirmation" netlify>
 				<h3>Inquire about {{ page.title }}</h3>
 				<input type="text" name="fullname" placeholder="Name">
 				<input type="text" name="email" placeholder="Email">
