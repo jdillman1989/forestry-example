@@ -47,13 +47,7 @@ fields:
     source:
       type: datafiles
       file: _data-programs-yml
-      path: ''
-    options:
-    - Associates
-    - Bachelors
-    - Masters
-    - Doctorate
-    - Certification
+      path: 'programs'
 pages:
 - _colleges/testing.md
 - _colleges/grand-valley.md
