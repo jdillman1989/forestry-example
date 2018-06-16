@@ -19,7 +19,7 @@ defaults:
 algolia:
   application_id: 'VP222X0ZZ6'
   index_name: 'forestry'
-  nodes_to_index: 'h3.programs'
+  nodes_to_index: 'h3'
 exclude: [Gemfile.lock, Gemfile, bin]
 plugins:
 - jekyll-autoprefixer
