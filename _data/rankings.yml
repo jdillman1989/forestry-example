@@ -1,6 +1,8 @@
 ---
-rankings:
-  - name: Top Ten Colleges
-  - name: Most Affordable
-  - name: Best Online Programs
+Top Ten Colleges:
+  name: Top Ten Colleges
+Most Affordable:
+  name: Most Affordable
+Best Online Programs:
+  name: Best Online Programs
 ---
