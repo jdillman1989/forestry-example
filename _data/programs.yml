@@ -1,8 +1,7 @@
 ---
-programs: 
-  - name: Associates
-  - name: Bachelors
-  - name: Masters
-  - name: Doctorate
-  - name: Certification
+name: Associates
+name: Bachelors
+name: Masters
+name: Doctorate
+name: Certification
 ---
