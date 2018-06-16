@@ -22,7 +22,6 @@ jQuery(document).ready(function($) {
 				footerPoint = (docHeight - screen.height) + footerHeight;
 				if ($(window).scrollTop() >= footerPoint){
 					scroll.css({'transform': 'translate(0, ' + ( -1 * ($(window).scrollTop() - footerPoint)) + 'px'});
-					console.log(-1 * ($(window).scrollTop() - footerPoint));
 				}
 			}
 			else{
