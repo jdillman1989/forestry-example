@@ -30,9 +30,13 @@ fields:
   config:
     use_select: true
     source:
-      type: datafiles
+      type: simple
       file: _data-rankings-yml
       path: rankings
+    options:
+    - Top Ten Colleges
+    - Most Affordable
+    - Best Online Programs
 - name: programs
   label: Programs
   type: list
