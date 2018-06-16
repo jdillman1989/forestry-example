@@ -15,6 +15,9 @@
 		margin-right: 50px;
 		text-decoration: none;
 		color: $primary;
+		&:visited{
+			color: $primary;
+		}
 		@include breakpoint($breakPoint) {
 			width: 100%;
 			flex-shrink: 1;
