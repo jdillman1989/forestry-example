@@ -32,16 +32,18 @@ fields:
     source:
       type: datafiles
       file: _data-rankings-yml
+      path: rankings
 - name: programs
   label: Programs
   type: list
   hidden: false
-  default: ''
+  default: []
   config:
     use_select: true
     source:
       type: datafiles
       file: _data-programs-yml
+      path: programs
 pages:
 - _colleges/grand-valley.md
 - _colleges/davenport.md
