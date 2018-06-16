@@ -3,6 +3,7 @@ email: jesse@jdillman.com
 baseurl: ""
 url: ""
 markdown: kramdown
+permalink: /:slug/
 sass:
   sass_dir: _sass
 collections:
