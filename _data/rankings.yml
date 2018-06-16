@@ -1,3 +1,4 @@
-- term: Top Ten Colleges
-- term: Most Affordable
-- term: Best Online Programs
+terms: 
+  - name: Top Ten Colleges
+  - name: Most Affordable
+  - name: Best Online Programs

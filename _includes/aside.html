@@ -4,8 +4,8 @@
 			<div class="select-style">
 				<select name="s">
 					<option value=" " selected="selected">Select a Program</option>
-					{% for program in site.data.programs %}
-						<option value="{{ group.name }}">{{ program.term }}</option>
+					{% for program in site.data.programs.terms %}
+						<option value="{{ program.name }}">{{ program.name }}</option>
 					{%endfor%}
 				</select>
 			</div>
