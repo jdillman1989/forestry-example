@@ -37,6 +37,11 @@ fields:
   type: list
   hidden: false
   default: ''
+  config:
+    use_select: true
+    source:
+      type: datafiles
+      file: _data-programs-yml
 - name: date
   label: Date
   type: datetime
