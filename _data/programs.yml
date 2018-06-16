@@ -1,13 +1,12 @@
 ---
-programs:
-  Associates:
-    name = "Associates"
-  Bachelors:
-    name = "Bachelors"
-  Masters:
-    name = "Masters"
-  Doctorate:
-    name = "Doctorate"
-  Certification:
-    name = "Certification"
+Associates:
+  name = "Associates"
+Bachelors:
+  name = "Bachelors"
+Masters:
+  name = "Masters"
+Doctorate:
+  name = "Doctorate"
+Certification:
+  name = "Certification"
 ---
