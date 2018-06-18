@@ -34,7 +34,8 @@ jQuery(document).ready(function($) {
     // Accordion //
     ///////////////
 
-	$('body').on('click', '.accordion-toggle', function() {
+	$('body').on('click', '.accordion-toggle', function(e) {
+		e.preventDefault();
 		$(this).toggleClass('active');
 		$(this).next('.accordion-content').slideToggle(300);
 	});
