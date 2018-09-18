@@ -1,4 +1,5 @@
 ---
+label: Colleges
 hide_body: false
 is_partial: false
 fields:
@@ -44,17 +45,29 @@ fields:
       type: datafiles
       file: _data-programs-yml
       path: programs
+- type: list
+  name: category
+  label: Category
+  description: select term
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - testing 1
+    - test 2
+    - example
 pages:
-- _colleges/wayne-state-university.md
-- _colleges/oakland-university.md
-- _colleges/eastern-michigan-university.md
 - _colleges/western-michigan-university.md
-- _colleges/michigan-state-university.md
-- _colleges/university-of-michigan.md
 - _colleges/calvin-theological-seminary.md
-- _colleges/cornerstone-university.md
-- _colleges/aquinas-college.md
+- _colleges/eastern-michigan-university.md
+- _colleges/university-of-michigan.md
 - _colleges/grand-rapids-community-college.md
-- _colleges/grand-valley.md
-- _colleges/davenport.md
+- _colleges/wayne-state-university.md
+- _colleges/aquinas-college.md
 - _colleges/calvin-college.md
+- _colleges/michigan-state-university.md
+- _colleges/davenport.md
+- _colleges/grand-valley.md
+- _colleges/oakland-university.md
+- _colleges/cornerstone-university.md
