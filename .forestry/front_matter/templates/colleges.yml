@@ -58,12 +58,12 @@ fields:
     - test 2
     - example
 pages:
+- _colleges/wayne-state-university.md
 - _colleges/western-michigan-university.md
 - _colleges/calvin-theological-seminary.md
 - _colleges/eastern-michigan-university.md
 - _colleges/university-of-michigan.md
 - _colleges/grand-rapids-community-college.md
-- _colleges/wayne-state-university.md
 - _colleges/aquinas-college.md
 - _colleges/calvin-college.md
 - _colleges/michigan-state-university.md
